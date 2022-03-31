@@ -27,6 +27,7 @@
               echo "Test failed!"
               exit 1
             fi
+            echo "Test passed!"
           '';
 
           installPhase = ''
